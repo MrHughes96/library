@@ -2,5 +2,5 @@ package com.khughes
 
 class BookReviewController {
 
-    def index() { }
+    def scaffold = BookReview
 }
