@@ -6,7 +6,7 @@ String email
 String username
 String password
 String studentId
-String course
+Course course
     static constraints = {
 name blank:false, nullable:false
 email blank:false, nullable:false

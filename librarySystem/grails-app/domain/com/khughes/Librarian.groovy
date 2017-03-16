@@ -7,7 +7,7 @@ String office
 String username
 String password
 int telephone
-String library
+Library library
 
     static constraints = {
 name blank:false, nullable:false
