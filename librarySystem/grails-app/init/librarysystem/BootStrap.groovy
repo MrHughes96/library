@@ -3,7 +3,7 @@ package com.khughes
 class BootStrap {
 
     def init = { servletContext ->
-   
+/*   
 def seacombe = new Library(
 name: 'Seacombe Library',
 address: '34 Seacombe Way, Wallasey',
@@ -138,7 +138,7 @@ ryan.addToBooks(catch22)
 ryan.addToBooks(winorlearn)
 
 
-
+*/
 
  }
 

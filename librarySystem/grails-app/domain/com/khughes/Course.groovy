@@ -8,6 +8,7 @@ String department
 String description
 String studyMode
 double fees
+String toString(){title}
 
 double calculateFees(){
 3*fees

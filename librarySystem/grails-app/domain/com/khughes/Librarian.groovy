@@ -9,6 +9,7 @@ String password
 int telephone
 Library library
 static belongsTo= Library
+String toString(){name}
 
     static constraints = {
 name blank:false, nullable:false
