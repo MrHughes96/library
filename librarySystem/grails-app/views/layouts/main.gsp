@@ -20,6 +20,7 @@
 
     <g:layoutBody/>
 <g:loginToggle/>
+<g:studentloginToggle/>
     <div class="footer" role="contentinfo"></div>
 
     <div id="spinner" class="spinner" style="display:none;">
