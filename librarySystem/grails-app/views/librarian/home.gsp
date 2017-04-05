@@ -58,3 +58,16 @@
 	<g:link controller="student"action="create">Students</g:link>
 	</button>
 </div>
+<div class="first">
+	<h3>Simple Search</h3>
+<p>This button takes you to the search screen</p>
+	<button type="button" class="btn btn-success">
+	<g:link controller="student"action="search">Search</g:link>
+</div>
+<div class="second">
+	<h3>Advanced Search</h3>
+<p>This button takes you to the Advanced search screen</p>
+	<button type="button" class="btn btn-success">
+	<g:link controller="student"action="advSearch">Advanced Search</g:link>
+	</button>
+</div>

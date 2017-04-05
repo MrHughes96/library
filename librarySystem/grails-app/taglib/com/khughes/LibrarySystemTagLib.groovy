@@ -15,7 +15,7 @@ out <<"Logout </a></span>"
 }else{
 out << "<span style= 'float:right;margin-right:10px'>"
 out << "<a href='${createLink(controller:'librarian',action:'login')}'>"
-out << "Login </a></span>"
+out << "Librarian Login </a></span>"
 }
 out << "</div><br/>"
 }
