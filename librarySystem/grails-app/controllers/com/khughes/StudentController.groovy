@@ -29,6 +29,21 @@ ilike(field,value)
 }
 [students:students]
 }
+def advBookSearch(){
+}
+def advBookResults(){
+def bookProps=Book.metaClass.properties*.name
+def books=Book.withCriteria{
+"${params.queryType}"{
+params.each{field,value->
+if (bookProps.grep(field)&&value){
+ilike(field,value)
+}
+}
+}
+}
+[books:books]
+}
 def studentlogin(){
 }
 def validate(){

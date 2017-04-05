@@ -28,4 +28,12 @@
 	<g:link controller="bookReview"action="create">Book Reviews</g:link>
 	</button>
 </div>
+<div class="first">
+	<h3>Book Search</h3>
+<p>This button takes you to the book Advanced Search screen</p>
+	<button type="button" class="btn btn-success">
+	<g:link controller="student"action="advBookSearch">Search for Books</g:link>
+	</button>
+</div>
+
 
