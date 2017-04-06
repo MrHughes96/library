@@ -17,17 +17,26 @@
 	<h3>Book Management</h3>
 <p>This button takes you to the book management screen</p>
 	<button type="button" class="btn btn-success">
-	<g:link controller="book"action="create">Books</g:link>
+	<g:link controller="book"action="index">Books</g:link>
+	</button>
+</div>
+
+<div class="second">
+	<h3>Create Book Review</h3>
+<p>This button allows you to create a new Book Review</p>
+	<button type="button" class="btn btn-success">
+	<g:link controller="bookReview"action="create">Book Reviews</g:link>
 	</button>
 </div>
 
 <div class="second">
 	<h3>Book Review Management</h3>
-<p>This button takes you to the book review management screen</p>
+<p>This button allows you to view the current Book Reviews</p>
 	<button type="button" class="btn btn-success">
-	<g:link controller="bookReview"action="create">Book Reviews</g:link>
+	<g:link controller="bookReview"action="index">Book Reviews</g:link>
 	</button>
 </div>
+
 <div class="first">
 	<h3>Book Search</h3>
 <p>This button takes you to the book Advanced Search screen</p>
